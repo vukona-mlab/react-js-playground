@@ -1,0 +1,15 @@
+main {
+    padding: 50px;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+}
+h6 {
+    font-size: 24px;;
+    color: rgb(20, 20, 20);
+    font-family: "PoppinsRegular";
+}
+
+p, ol {
+    font-size: 15px;
+    color: rgb(20, 20, 20);
+}

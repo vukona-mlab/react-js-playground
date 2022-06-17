@@ -1,0 +1,76 @@
+.table-cont {
+    width: 100%;
+    height: fit-content;
+    /* display: ; */
+}
+.table {
+    /* width: 768px; */
+    margin: auto;
+    height: fit-content;
+    width: 948px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.column {
+    /* padding: 10px; */
+    margin: 0;
+    height: 40px;
+    /* width: 768px; */
+    width: 948px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    /* border-radius: 0 0 5px 5px; */
+}
+.column:first-child {
+    border-radius: 5px 5px 0 0;
+}
+.column:last-child {
+    /* border: 5px solid black; */
+    border-radius: 0 0 5px 5px;
+}
+
+
+.span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 180px !important;
+    border-left: 1px solid transparent;
+    padding-left: 10px;
+    height: 40px;
+    /* padding: 0; */
+}
+.header {
+    font-weight: bold;
+    /* border: 1px solid grey; */
+    /* border-radius: 5px; */
+}
+span {
+    /* display: inline-block; */
+    /* margin-left: 100px; */
+}
+.no-transaction {
+    font-family: "PoppinsRegular";
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+.Expense {
+    color: rgb(180, 70, 70);
+}
+.Income {
+    color: rgb(70, 180, 70);
+}
+
+.span.button {
+    margin: 0;
+    border: none;
+    color: rgb(180, 70, 70);
+    /* color: rgb(230, 230, 230); */
+    background-color: transparent;
+    width: 20px !important;
+    padding: 0;
+}

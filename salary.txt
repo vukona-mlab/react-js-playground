@@ -1,0 +1,17 @@
+
+          // const tax = [
+          //    { month: 'mar', salary: 0, sar: 0 },
+          //    { month: 'apr', salary: 0, sar: 0 },
+          //    { month: 'may', salary: 0, sar: 0 },
+          //    { month: 'jun', salary: 3691.70, sar: 4000 },
+          //    { month: 'jul', salary: 7789.50, sar: 8000 },
+          //    { month: 'aug', salary: 7789.50, sar: 8000 },
+          //    { month: 'sep', salary: 7789.50, sar: 8000 },
+          //    { month: 'oct', salary: 11839.50, sar: 13000 },
+          //    { month: 'nov', salary: 11839.50 + 8421.43, sar: 13000 + 9000 },
+          //    { month: 'dec', salary: 11839.50 + 15892.38, sar: 13000 + 18000 },
+          //    { month: 'jan', salary: 15892.38, sar: 18000 },
+          //    { month: 'feb', salary: 15892.38, sar: 18000 },
+          // ]
+          // const total = tax.map( m => m.sar).reduce( (prev, curr) => prev + curr);
+          // console.log('total: ', total);
